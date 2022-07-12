@@ -45,7 +45,7 @@ body {
 
 /* == Game Board == */
 .game-board {
-    width: 30%;
+    width: 400px;
     height: 400px;
     border: 1px solid;
 
@@ -56,4 +56,12 @@ body {
 
 .game-board div {
     border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-board div i {
+    font-size: 7rem;
+    opacity: 1;
 }
