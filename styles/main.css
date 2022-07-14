@@ -59,9 +59,23 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: color 1s;
+}
+
+.game-board div:hover {
+    border: 3px solid;
 }
 
 .game-board div i {
     font-size: 7rem;
     opacity: 1;
+}
+
+/* == Conditions == */
+.game-board .playerWin {
+    color: rgb(0, 255, 0);
+}
+
+.game-board .aiWin {
+    color: red;
 }
