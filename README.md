@@ -7,12 +7,17 @@ Live Preview: #
 ![alt text](#)
 ![alt text](#)
 
+## What I learned so far
+
+- Logic behind algorithms
+- Idea of minmax algorithm
+
 ## Features
 
 - For now - nothing
 
-
 ## To do
+
 - AI
 - Score system
 - Maybe Player vs Player
